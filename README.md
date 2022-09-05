@@ -26,7 +26,8 @@ The hashes are exported to Hashcat format. This enabled us to use GPU power to a
 
 ## Results
 All 600+ unique hashes were retrieved (the cycle was complete) 
-~170 subdomains were only cracked using Amass urls.
+~170 subdomains (longer subdomains) were found by Amass but could not be cracked within a day with a single GPU.
+~75% of the hashes have been cracked
 ~80 subdomains were cracked that were not known to Amass.
 
 Major part of the cracked subdomains seem to come with technologies used, contain DNS wildcards, or tests urls. The latter might be particularly interesting.
